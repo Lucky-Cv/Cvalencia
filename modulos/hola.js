@@ -1,3 +1,3 @@
-exports.menu => {
+exports.menu = (v) => {
   return `hola`
 }
