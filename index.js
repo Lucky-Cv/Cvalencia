@@ -87,7 +87,7 @@ reply(`Me alegro(:, yo bien`)
 break
 
 case 'jaja':
-  reply (`${hola}`)
+  reply (`jaja ${hola} qu`)
   break
 
 
