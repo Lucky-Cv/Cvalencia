@@ -10,7 +10,7 @@ const qrcode = require('qrcode-terminal')
 
 const { state, saveState } = useSingleFileAuthState('./session.json')
 
-const hola = require('./modulos/hola.js')
+const  { hola } = require('./modulos/hola')
 
 const prefix = ''
 const ownerNumber = ['34643694252']
