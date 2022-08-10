@@ -71,14 +71,14 @@ const connectToWA = () => {
 
 case 'Hola':
   case 'hola':
-reply(`Buenas, ¿Como esta?`)
+reply(`${hola}`)
 break
 
 case 'Como estás?':
 case 'Como estás':
 case 'Que tal':
 case 'que tal':
-reply(`Bien, ¿Y usted como esta?`)
+reply(`${c}`)
 break
 
 case 'Bien y tu':
