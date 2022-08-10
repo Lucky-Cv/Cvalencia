@@ -72,10 +72,14 @@ case 'Hola':
 reply(`buenas, ¿Como esta?`)
 break
 
+case 'Como estás?':
 case 'Como estás':
-case 'como estás':
+case 'Que tal':
+case 'que tal':
 reply(`Bien, ¿Y usted como esta?`)
 break
+
+case 'Bien y tu?'
 
 
 
