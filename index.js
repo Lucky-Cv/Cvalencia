@@ -67,18 +67,20 @@ const connectToWA = () => {
 			
 			switch (command) {
 
-case 'hola':
-reply(`hola`)
+case '':
+reply(``)
 break
+
+case 'hola':
+  reply(`hola`)
+  break
 
 case 'Como estás':
 case 'como estás':
 reply(`Bien, ¿Y usted como esta?`)
 break
 
-case 'help':
-  reply(`hola`)
-  break
+
 
 
 
