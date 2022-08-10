@@ -1,3 +1,3 @@
-export { reply }
+export "./index.js"
 
 reply(`hola`)
