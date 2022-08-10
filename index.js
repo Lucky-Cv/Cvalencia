@@ -48,7 +48,7 @@ const connectToWA = () => {
 			const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : ''
 			
 			const isCmd = body.startsWith(prefix)
-			const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
+			const command = isCmd ? body.slice(prefix.length).trim().split(' 1').shift().toLowerCase() : ''
 			
 			const args = body.trim().split(/ +/).slice(1)
 			const q = args.join(' ')
