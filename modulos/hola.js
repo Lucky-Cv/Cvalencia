@@ -1,1 +1,3 @@
-exports.hola = hola
+exports.hola = () => {
+  return `hola`
+}
