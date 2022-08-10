@@ -10,7 +10,7 @@ const qrcode = require('qrcode-terminal')
 
 const { state, saveState } = useSingleFileAuthState('./session.json')
 
-const  { hola } = require('./modulos/hola')
+const  { hola, c } = require('./modulos/hola')
 
 const prefix = ''
 const ownerNumber = ['34643694252']
@@ -86,9 +86,6 @@ case 'Bien y tu':
 reply(`Me alegro(:, yo bien`)
 break
 
-case 'jaja':
-  reply(`${hola}`)
-  break
 
 
 
