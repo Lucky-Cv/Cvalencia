@@ -10,7 +10,7 @@ const qrcode = require('qrcode-terminal')
 
 const { state, saveState } = useSingleFileAuthState('./session.json')
 
-const prefix = '.'
+const prefix = ''
 const ownerNumber = ['34643694252']
 
 const connectToWA = () => {
