@@ -80,7 +80,7 @@ reply(`Bien, ¿Y usted como esta?`)
 break
 
 case 'Bien y tu':
-  case 'bien y usted'
+  case 'bien y usted':
 reply(`Me alegro(:, yo bien`)
 break
 
