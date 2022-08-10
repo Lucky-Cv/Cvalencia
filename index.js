@@ -70,7 +70,7 @@ const connectToWA = () => {
 case 'Hola':
 case 'ola':
 reply(`Hola ${pushname} como estas? :D`)
-break
+break;
 
 case 'Como estas':
 case 'como estas':
