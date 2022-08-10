@@ -76,8 +76,6 @@ break
 
 case 'Como estás?':
 case 'Como estás':
-case 'Que tal':
-case 'que tal':
 reply(`${c}`)
 break
 
