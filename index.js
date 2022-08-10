@@ -72,7 +72,7 @@ reply(``)
 break
 
 case 'hola':
-  reply(`hola`)
+  reply(`Como estas?`)
   break
 
 case 'Como estás':
@@ -84,15 +84,7 @@ break
 
 
 
-  if (isOwner) {
-     
-     if (body.startsWith('$')) {
-						exec(body.slice(1), (err, stdout) => {
-							if (err) return reply(err)
-							if (stdout) return reply(stdout)
-						})
-					}
-  }
+
 
 			}
 			
