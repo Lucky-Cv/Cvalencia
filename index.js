@@ -74,7 +74,7 @@ break
 
 case 'Como estas':
 case 'como estas':
-reply(`Bien, ¿Y usted como esta?`
+reply(`Bien, ¿Y usted como esta?`)
 break
 
 
