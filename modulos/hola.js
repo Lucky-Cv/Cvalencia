@@ -1,3 +1,3 @@
-
-
-reply(`hola`)
+exports.menu => {
+  return `hola`
+}
