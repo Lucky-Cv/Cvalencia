@@ -86,7 +86,9 @@ case 'Bien y tu':
 reply(`Me alegro(:, yo bien`)
 break
 
-
+case 'jaja':
+  reply (`${hola}`)
+  break
 
 
 
