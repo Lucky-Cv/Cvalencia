@@ -1,3 +1,3 @@
-import { reply }
+export { reply }
 
 reply(`hola`)
