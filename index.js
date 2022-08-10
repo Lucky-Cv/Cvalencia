@@ -69,7 +69,7 @@ const connectToWA = () => {
 
 case 'Hola':
   case 'hola':
-reply(`buenas, ¿Como esta?`)
+reply(`Buenas, ¿Como esta?`)
 break
 
 case 'Como estás?':
@@ -79,7 +79,10 @@ case 'que tal':
 reply(`Bien, ¿Y usted como esta?`)
 break
 
-case 'Bien y tu?'
+case 'Bien y tu':
+  case 'bien y usted'
+reply(`Me alegro(:, yo bien`)
+break
 
 
 
