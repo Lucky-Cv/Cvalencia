@@ -77,6 +77,10 @@ case 'como estás':
 reply(`Bien, ¿Y usted como esta?`)
 break
 
+case 'help':
+  reply(`hola`)
+  break
+
 
 			}
 			
